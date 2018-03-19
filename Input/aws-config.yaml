@@ -1,6 +1,6 @@
 ami:
     #Image details and region
-  - image-id: ami-cea492ab
+  - image-id: ami-ed774688
   - security-group-id: sg-0c59ab67
   
 instance:
