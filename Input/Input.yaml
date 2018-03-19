@@ -1,1 +1,26 @@
+scripts:
+    #Name of the JMX files which needs to be executed
 
+
+ 
+url:
+    #URL of the Application under test
+  - https://develop.mammoth.io/#/login
+
+browsers:
+    #Browser of execution
+  - chrome
+  
+execution:
+    #Default value is 1 1 1 respectively
+  - concurrency: 1
+  - ramp-up: 1
+  - iteration: 1
+  
+
+time-out:
+    #Maximum Duration of the test execution in minutes after which the execution terminates
+  - 40m
+
+cache:
+- False
