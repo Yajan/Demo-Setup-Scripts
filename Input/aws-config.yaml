@@ -1,0 +1,23 @@
+ami:
+    #Image details and region
+  - image-id: ami-cea492ab
+  - security-group-id: sg-0c59ab67
+  
+instance:
+    #Number of Systems/Instances on which the execution should take place
+  - 1
+
+operatingsystem:
+  - windows
+  
+instance-type:
+  - t2.micro
+  
+keyname:
+  - TestKeyOne
+
+region:
+  - us-east-2
+
+subnet:
+- subnet-bcfcabf1
