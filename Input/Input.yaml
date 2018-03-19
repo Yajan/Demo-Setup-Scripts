@@ -1,7 +1,6 @@
 scripts:
     #Name of the JMX files which needs to be executed
-
-
+  - Test.jmx
  
 url:
     #URL of the Application under test
